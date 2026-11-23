@@ -1,0 +1,28 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+venv/
+
+# Large Datasets & Archives (do not commit 100k+ images to GitHub!)
+dataset/
+cifake/
+archive/
+*.zip
+*.tar.gz
+
+# Trained Model Weights / Checkpoints (large binary files)
+*.pth
+*.pt
+*.onnx
+*.bin
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
